@@ -20,7 +20,6 @@ const reducers = {
   searchString: searchString,
 };
 
-
 // add blank reducers for initial state properties without reducers
 Object.keys(initialState).forEach(item => {
   if (typeof reducers[item] == 'undefined') {
